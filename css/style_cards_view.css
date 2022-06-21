@@ -1,0 +1,47 @@
+body{
+  
+    
+        
+
+}
+*{
+    text-decoration: none;
+}
+.up-wapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.wapper{
+    
+    /*  */
+    display: flex;
+    background-color: #CDB699;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.div_price,.a_card,.made_in{
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    background-color: #BB6464;
+    color: #CDB699;
+}
+.img,.div_price,.a_card,.made_in{
+    border-radius: 10px;
+}
+.img{
+    margin-left: 30px;
+}
+.a_card{
+    margin-right: 15px;
+}

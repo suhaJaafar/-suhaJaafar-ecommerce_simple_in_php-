@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+}
+.body_home, .body_home_login{
+    background-color: #BB6464;
+    background-image: linear-gradient(to bottom right, #BB6464, #CDB699);
+
+
+}
+section{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap:0.5rem;
+    margin: 10px;
+}
+section .card{
+    border: #BB6464 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    width:320px ;
+    height: auto;
+    background-color: #CDB699;
+}
+section .card h1{
+    padding: 10px  0 10px 0;
+}
+.img{
+    height: 350px;
+    width: 218px;
+    border-radius: 10px;
+}
+section .card .price{
+    color: red;
+}
+section .card .div_price{
+    font-size: 20px;
+    padding: 10px  0 10px 0;
+
+}
+section .card .a_cards{
+    padding: 0  0 10px 0;
+    margin: 8px;
+}
+section .card .a_card{
+    background-color: white;
+    padding: 8px;
+    margin: 0 1px 0 1px;
+    border: rgb(142, 142, 142) 1px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+}
+section .card .a_card:hover{
+    box-shadow: 5px 10px 8px #BB6464;
+
+}

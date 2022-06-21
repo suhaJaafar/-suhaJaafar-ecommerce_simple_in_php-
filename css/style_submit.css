@@ -1,0 +1,17 @@
+.results{
+    display: grid;
+    grid-template-columns: auto;
+    /* width: 700px; */
+    height: 100vh;
+    
+}
+
+.result{ 
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: 2px solid #d7c3ab;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    
+}

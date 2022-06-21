@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    /* background-color:#C3DBD9; */
+
+}
+.fo{
+    display: flex;
+    color: #d7c3ab;
+    font-size: 20px;
+}
+.icons{
+    cursor: pointer;
+    justify-content: space-around;
+    padding:25px 0 25px 0 ;
+    flex: 20%;
+}
+.some-text{
+    color: #d7c3ab;
+    padding-top: 20px;
+    justify-content: center;
+    flex: 80%;
+}
